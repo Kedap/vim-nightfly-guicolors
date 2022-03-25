@@ -873,30 +873,30 @@ if has('nvim-0.6')
     highlight! link DiagnosticError NightflyRed
     highlight! link DiagnosticWarn NightflyYellow
     highlight! link DiagnosticInfo NightflyBlue
-    highlight! link DiagnosticHint NightflyWhite
+    highlight! link DiagnosticHint NightflyEmerald
     if g:nightflyUndercurls
         exec 'highlight DiagnosticUnderlineError guibg=NONE gui=undercurl guisp=' . s:red
         exec 'highlight DiagnosticUnderlineWarn guibg=NONE gui=undercurl guisp=' . s:yellow
         exec 'highlight DiagnosticUnderlineInfo guibg=NONE gui=undercurl guisp=' . s:blue
-        exec 'highlight DiagnosticUnderlineHint guibg=NONE gui=undercurl guisp=' . s:white
+        exec 'highlight DiagnosticUnderlineHint guibg=NONE gui=undercurl guisp=' . s:emerald
     else
         exec 'highlight DiagnosticUnderlineError guibg=NONE gui=underline guisp=' . s:red
         exec 'highlight DiagnosticUnderlineWarn guibg=NONE gui=underline guisp=' . s:yellow
         exec 'highlight DiagnosticUnderlineInfo guibg=NONE gui=underline guisp=' . s:blue
-        exec 'highlight DiagnosticUnderlineHint guibg=NONE gui=underline guisp=' . s:white
+        exec 'highlight DiagnosticUnderlineHint guibg=NONE gui=underline guisp=' . s:emerald
     endif
-    highlight! link DiagnosticVirtualTextError NightflySteelBlue
-    highlight! link DiagnosticVirtualTextWarn NightflySteelBlue
-    highlight! link DiagnosticVirtualTextInfo NightflySteelBlue
-    highlight! link DiagnosticVirtualTextHint NightflySteelBlue
-    highlight! link DiagnosticSignError NightflyRedAlert
-    highlight! link DiagnosticSignWarn NightflyYellowAlert
-    highlight! link DiagnosticSignInfo NightflyBlueAlert
-    highlight! link DiagnosticSignHint NightflyWhiteAlert
-    highlight! link DiagnosticFloatingError NightflyRed
-    highlight! link DiagnosticFloatingWarn NightflyYellow
-    highlight! link DiagnosticFloatingInfo NightflyBlue
-    highlight! link DiagnosticFloatingHint NightflyWhite
+    highlight! link LspDiagnosticsVirtualTextError NightflyRed
+    highlight! link LspDiagnosticsVirtualTextWarning NightflyYellow
+    highlight! link LspDiagnosticsVirtualTextInformation NightflyIndigo
+    highlight! link LspDiagnosticsVirtualTextHint NightflyEmerald
+    highlight! link LspDiagnosticsSignError NightflyRedAlert
+    highlight! link LspDiagnosticsSignWarning NightflyYellowAlert
+    highlight! link LspDiagnosticsSignInformation NightflyIndigo
+    highlight! link LspDiagnosticsSignHint NightflyEmeraldAlert
+    highlight! link LspDiagnosticsFloatingError NightflyRed
+    highlight! link LspDiagnosticsFloatingWarning NightflyYellow
+    highlight! link LspDiagnosticsFloatingInformation NightflyIndigo
+    highlight! link LspDiagnosticsFloatingHint NightflyEmerald
     highlight! link LspSignatureActiveParameter NightflyVisual
 elseif has('nvim-0.5')
     " Neovim 0.5 LSP diagnostics
@@ -904,25 +904,25 @@ elseif has('nvim-0.5')
         exec 'highlight LspDiagnosticsUnderlineError guibg=NONE gui=undercurl guisp=' . s:red
         exec 'highlight LspDiagnosticsUnderlineWarning guibg=NONE gui=undercurl guisp=' . s:yellow
         exec 'highlight LspDiagnosticsUnderlineInformation guibg=NONE gui=undercurl guisp=' . s:blue
-        exec 'highlight LspDiagnosticsUnderlineHint guibg=NONE gui=undercurl guisp=' . s:white
+        exec 'highlight LspDiagnosticsUnderlineHint guibg=NONE gui=undercurl guisp=' . s:emerald
     else
         exec 'highlight LspDiagnosticsUnderlineError guibg=NONE gui=underline guisp=' . s:red
         exec 'highlight LspDiagnosticsUnderlineWarning guibg=NONE gui=underline guisp=' . s:yellow
         exec 'highlight LspDiagnosticsUnderlineInformation guibg=NONE gui=underline guisp=' . s:blue
-        exec 'highlight LspDiagnosticsUnderlineHint guibg=NONE gui=underline guisp=' . s:white
+        exec 'highlight LspDiagnosticsUnderlineHint guibg=NONE gui=underline guisp=' . s:emerald
     endif
-    highlight! link LspDiagnosticsVirtualTextError NightflySteelBlue
-    highlight! link LspDiagnosticsVirtualTextWarning NightflySteelBlue
-    highlight! link LspDiagnosticsVirtualTextInformation NightflySteelBlue
-    highlight! link LspDiagnosticsVirtualTextHint NightflySteelBlue
+    highlight! link LspDiagnosticsVirtualTextError NightflyRed
+    highlight! link LspDiagnosticsVirtualTextWarning NightflyYellow
+    highlight! link LspDiagnosticsVirtualTextInformation NightflyIndigo
+    highlight! link LspDiagnosticsVirtualTextHint NightflyEmerald
     highlight! link LspDiagnosticsSignError NightflyRedAlert
     highlight! link LspDiagnosticsSignWarning NightflyYellowAlert
-    highlight! link LspDiagnosticsSignInformation NightflyBlueAlert
-    highlight! link LspDiagnosticsSignHint NightflyWhiteAlert
+    highlight! link LspDiagnosticsSignInformation NightflyIndigo
+    highlight! link LspDiagnosticsSignHint NightflyEmeraldAlert
     highlight! link LspDiagnosticsFloatingError NightflyRed
     highlight! link LspDiagnosticsFloatingWarning NightflyYellow
-    highlight! link LspDiagnosticsFloatingInformation NightflyBlue
-    highlight! link LspDiagnosticsFloatingHint NightflyWhite
+    highlight! link LspDiagnosticsFloatingInformation NightflyIndigo
+    highlight! link LspDiagnosticsFloatingHint NightflyEmerald
     highlight! link LspSignatureActiveParameter NightflyVisual
 endif
 
