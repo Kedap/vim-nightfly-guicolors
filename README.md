@@ -8,6 +8,8 @@ _nightfly_ is a dark GUI colorscheme for Vim & Neovim inspired by:
 - [moonfly](https://github.com/bluz71/vim-moonfly-colors) (note, this is a dark
   Vim & Neovim colorscheme that I also maintain)
 
+**THIS FORK ADDS THE ABILITY FOR THE LSP DIAGNOSTIC VIRTUAL TEXT TO HAVE COLORS, REALLY THAT'S ALL THAT CHANGES IN THIS FORK**
+
 :zap: Prerequisites
 -------------------
 
@@ -67,19 +69,19 @@ Styled Features & Plugins
 Installation
 ------------
 
-Install the **bluz71/vim-nightfly-guicolors** colorscheme with your preferred
+Install the **kedap/vim-nightfly-guicolors** colorscheme with your preferred
 plugin manager.
 
 [vim-plug](https://github.com/junegunn/vim-plug):
 
 ```viml
-Plug 'bluz71/vim-nightfly-guicolors'
+Plug 'kedap/vim-nightfly-guicolors'
 ```
 
 [packer.nvim](https://github.com/wbthomason/packer.nvim):
 
 ```lua
-use 'bluz71/vim-nightfly-guicolors'
+use 'kedap/vim-nightfly-guicolors'
 ```
 
 Usage
