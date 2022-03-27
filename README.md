@@ -34,11 +34,11 @@ Screenshots
 
 <img width="800" alt="ruby" src="https://raw.githubusercontent.com/bluz71/misc-binaries/master/nightfly/ruby_nightfly.png">
 
-### JavaScript
+### Typescript
 
-<img width="800" alt="javascript" src="https://raw.githubusercontent.com/bluz71/misc-binaries/master/nightfly/javascript_nightfly.png">
+<img width="800" alt="javascript" src="./samples/typescript.png">
 
-The font in use is [Iosevka](https://github.com/be5invis/Iosevka).
+The font in use is [Iosevka](https://github.com/be5invis/Iosevka) and [Source Code pro](https://github.com/ryanoasis/nerd-fonts/).
 
 Styled Features & Plugins
 -------------------------
