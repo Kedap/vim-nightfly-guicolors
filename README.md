@@ -8,7 +8,10 @@ _nightfly_ is a dark GUI colorscheme for Vim & Neovim inspired by:
 - [moonfly](https://github.com/bluz71/vim-moonfly-colors) (note, this is a dark
   Vim & Neovim colorscheme that I also maintain)
 
-**THIS FORK ADDS THE ABILITY FOR THE LSP DIAGNOSTIC VIRTUAL TEXT TO HAVE COLORS, REALLY THAT'S ALL THAT CHANGES IN THIS FORK**
+**:warning: THIS FORK ADDS THE ABILITY FOR THE LSP DIAGNOSTIC VIRTUAL TEXT TO
+HAVE COLORS, REALLY THAT'S ALL THAT CHANGES IN THIS FORK WHAT IS RECOMMENDED IS
+TO USE THE ORIGINAL REPOSITORY, SINCE IT ALREADY CONTAINS THE AFOREMENTIONED
+FEATURE :warning:**
 
 :zap: Prerequisites
 -------------------
